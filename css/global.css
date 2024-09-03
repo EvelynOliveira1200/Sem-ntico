@@ -6,12 +6,22 @@
 body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     line-height: 1.6;
-    color: black;
-    background-color: rgba(192, 192, 192, 0.637);
+    color: rgb(0, 0, 0);
+    background-color: rgba(194, 139, 95, 0.637);
 }
 .site-header{
-    background-color:  rgb(56, 55, 55);
+    background-color:  rgb(172, 116, 71);
     color: aliceblue;
     padding: 1rem 0;
     text-align: center;
+}
+.site-title{
+    margin-bottom: 10px;
+    font-size: 2rem;
+}
+.main-nav .nav-list{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+
 }
