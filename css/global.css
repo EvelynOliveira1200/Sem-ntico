@@ -1,51 +1,62 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
     line-height: 1.6;
     color: rgb(0, 0, 0);
     background-color: rgba(226, 141, 141, 0.637);
 }
-.site-header{
-    background-color:  rgb(194, 61, 101);
+
+.site-header {
+    background-color: rgb(194, 61, 101);
     color: aliceblue;
     padding: 1rem 0;
     text-align: center;
 }
-.site-title{
+
+.site-title {
     margin-bottom: 10px;
     font-size: 2rem;
 }
-.main-nav .nav-list{
+
+.main-nav .nav-list {
     list-style: none;
     display: flex;
     justify-content: center;
+
 }
-.main-nav{
+
+.main-nav {
     margin: 0 15px;
 }
-.main-nav .nav-link{
+
+.main-nav .nav-link {
     color: rgb(255, 198, 198);
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s;
-
+    margin: 6px;
 }
-.main-nav .nav-link:hover{
+
+.main-nav .nav-link:hover {
     color: aliceblue;
 }
-.main-content{
+
+.main-content {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between; /*Distribuição sobre a tela*/
+    justify-content: space-between;
+    /*Distribuição sobre a tela*/
     max-width: 1200px;
     margin: 40px auto;
     padding: 0 20px;
 }
-.article{
+
+.article {
     flex: 3;
     background-color: #ffff;
     padding: 20px;
@@ -53,68 +64,135 @@ body{
     box-shadow: 0 2px 4px rgb(245, 148, 148);
     border-radius: 5px;
 }
-.article-header{
+
+.article-header {
     border-bottom: 2px solid rgba(194, 61, 101, 0.651);
     margin-bottom: 15px;
     padding-bottom: 10px;
 }
-.article-title{
+
+.article-title {
     color: black;
     font-size: 1.5em;
     margin-bottom: 20px;
 }
-.article-meta{
+
+.article-meta {
     color: #777;
     font-size: 0.9em;
 }
-.article-section{
+
+.article-section {
     margin-bottom: 20px;
 }
-.section-title{
+
+.section-title {
     font-size: 1.4em;
     color: #555;
     margin-bottom: 10px;
 }
-.sectiom-text{
+
+.sectiom-text {
     margin-bottom: 15px;
     color: #444;
-    line-height: 1.0;
+    line-height: 1;
 }
-.image-figure{
+
+.image-figure {
     margin-top: 20px 0;
 }
-.article-image{
+
+.article-image {
     max-width: 100%;
     height: auto;
     border-radius: 5px;
 }
-.image-caption{
+
+.image-caption {
     text-align: center;
-    font-size: 0.10em;
+    font-size: 0.1em;
     color: #777;
     margin-top: 5px;
 }
-.sidebar{
+
+.sidebar {
     flex: 1;
     background-color: rgba(255, 227, 227, 0.877);
     padding: 20px;
     box-shadow: 0 2px 4px rgb(245, 148, 148);
     border-radius: 5px;
 }
-.sidebar-title{
+
+.sidebar-title {
     font-size: 1.6em;
     color: black;
     margin-bottom: 10px;
 }
-.sidebar-text{
+
+.sidebar-text {
     color: #555;
     line-height: 1.5;
-
 }
-.site-footer{
-    background-color: black;
+
+.site-footer {
+    background-color:rgb(194, 61, 101);
     color: #fff;
     text-align: center;
     padding: 10px;
     margin-top: 20px;
+}
+
+.contact-info {
+    margin-bottom: 5px;
+}
+
+.author-name,
+.author-email {
+    margin-bottom: 5px;
+}
+
+.email-link {
+    color: #ffc5cd;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.email-link:hover {
+    color: #fff;
+}
+
+.footer-copy {
+    font-size: 0.9em;
+
+    color: #ccc;
+}
+
+form{
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #db7987;
+    margin-top: 30px;
+}
+
+form label{
+    display: block;
+    margin-bottom: 5px;
+    color: black;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea{
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+form button:hover{
+    background-color: #ffc5cd;
 }
